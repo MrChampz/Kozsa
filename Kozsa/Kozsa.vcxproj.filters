@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{23718866-370b-47a1-8a18-9b3a48bb9005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Light">
+      <UniqueIdentifier>{57db932e-8285-4447-9a51-893de94e30cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Light">
+      <UniqueIdentifier>{e42cf018-56b7-4468-99d0-e291d8b288aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Skinning">
+      <UniqueIdentifier>{be38f2c9-7dda-491e-a5e7-4d4f434fc5da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Skinning">
+      <UniqueIdentifier>{b4f96f24-487e-4ac8-a0d1-0f301b26e6b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModelObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ResourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModelLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ThirdPersonCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TextureCubemap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SkyboxObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Light\PointLight.cpp">
+      <Filter>Source Files\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Light\DirectionalLight.cpp">
+      <Filter>Source Files\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Light\SpotLight.cpp">
+      <Filter>Source Files\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SkinnedModel.cpp">
+      <Filter>Source Files\Skinning</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Skeleton.cpp">
+      <Filter>Source Files\Skinning</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimatedMesh.cpp">
+      <Filter>Source Files\Skinning</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ModelObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ModelLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ThirdPersonCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TextureCubemap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SkyboxObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Light\PointLight.h">
+      <Filter>Header Files\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Light\DirectionalLight.h">
+      <Filter>Header Files\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Light\SpotLight.h">
+      <Filter>Header Files\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SkinnedModel.h">
+      <Filter>Header Files\Skinning</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Skeleton.h">
+      <Filter>Header Files\Skinning</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AnimatedMesh.h">
+      <Filter>Header Files\Skinning</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Model.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Model.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Cube.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Cube.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\PBR.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\PBR.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\PBR_TEX.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\PBR_TEX.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Test.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Test.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Skybox.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Skybox.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Terrain.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Terrain.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Particles.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Particles.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\TerrainDebugLines.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\TerrainDebugLines.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Color.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Color.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ParticlesTFRender.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ParticlesTFUpdate.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ParticlesTF.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\BRDF.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\BRDF.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Cubemap.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Equirectangular.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Irradiance.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Prefilter.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Skinning.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Skinning.vs">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

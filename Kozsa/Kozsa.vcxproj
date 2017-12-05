@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9E746155-9606-42EF-BF76-DB09CE2ADD92}</ProjectGuid>
+    <RootNamespace>Kozsa</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Physx\Include;C:\Users\mrCha\Documents\Visual Studio 2015\Projects\kozsa\Kozsa\Dependencies\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\mrCha\Documents\Visual Studio 2015\Projects\kozsa\Kozsa\Dependencies\Lib\x86\Debug;$(LibraryPath)</LibraryPath>
+    <SourcePath>C:\Users\mrCha\Documents\Visual Studio 2015\Projects\kozsa\Kozsa\Kozsa\Source;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(SolutionDir)\Dependencies\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\Dependencies\Lib\x64\Debug;$(LibraryPath)</LibraryPath>
+    <SourcePath>$(SolutionDir)\Kozsa\Source;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LibraryPath>C:\Users\mrCha\Source\Repos\kozsa\Kozsa\Dependencies\Lib\x64\Release;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Physx\Include;C:\Users\mrCha\Documents\Visual Studio 2015\Projects\kozsa\Kozsa\Dependencies\Include;$(IncludePath)</IncludePath>
+    <SourcePath>C:\Users\mrCha\Source\Repos\kozsa\Kozsa\Kozsa\Source;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>C:\Users\mrCha\Source\Repos\kozsa\Kozsa\Dependencies\Lib\x86\Release;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\mrCha\Source\Repos\kozsa\Kozsa\Dependencies\Include;$(IncludePath);C:\Program Files\Autodesk\FBX\FBX SDK\2017.1\include</IncludePath>
+    <SourcePath>C:\Users\mrCha\Source\Repos\kozsa\Kozsa\Kozsa\Source;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glew32d.lib;glfw3.lib;assimp.lib;SOIL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;FBXSDK_SHARED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAsManaged>false</CompileAsManaged>
+      <CallingConvention>Cdecl</CallingConvention>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glew32d.lib;glfw3.lib;BulletDynamics.lib;BulletCollision.lib;LinearMath.lib;CEGUIBase-0_d.lib;CEGUIOpenGLRenderer-0_d.lib;CEGUICoreWindowRendererSet_d.lib;CEGUIExpatParser_d.lib;assimp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3.lib;assimp.lib;SOIL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3.lib;assimp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\AnimatedMesh.cpp" />
+    <ClCompile Include="Source\Camera.cpp" />
+    <ClCompile Include="Source\Game.cpp" />
+    <ClCompile Include="Source\GameObject.cpp" />
+    <ClCompile Include="Source\Light\DirectionalLight.cpp" />
+    <ClCompile Include="Source\Light\PointLight.cpp" />
+    <ClCompile Include="Source\Light\SpotLight.cpp" />
+    <ClCompile Include="Source\Mesh.cpp" />
+    <ClCompile Include="Source\Model.cpp" />
+    <ClCompile Include="Source\ModelLoader.cpp" />
+    <ClCompile Include="Source\ModelObject.cpp" />
+    <ClCompile Include="Source\Program.cpp" />
+    <ClCompile Include="Source\Renderer.cpp" />
+    <ClCompile Include="Source\ResourceManager.cpp" />
+    <ClCompile Include="Source\Shader.cpp" />
+    <ClCompile Include="Source\Skeleton.cpp" />
+    <ClCompile Include="Source\SkinnedModel.cpp" />
+    <ClCompile Include="Source\SkyboxObject.cpp" />
+    <ClCompile Include="Source\Texture2D.cpp" />
+    <ClCompile Include="Source\TextureCubemap.cpp" />
+    <ClCompile Include="Source\ThirdPersonCamera.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\AnimatedMesh.h" />
+    <ClInclude Include="Source\Camera.h" />
+    <ClInclude Include="Source\Game.h" />
+    <ClInclude Include="Source\GameObject.h" />
+    <ClInclude Include="Source\Light\DirectionalLight.h" />
+    <ClInclude Include="Source\Light\PointLight.h" />
+    <ClInclude Include="Source\Light\SpotLight.h" />
+    <ClInclude Include="Source\Mesh.h" />
+    <ClInclude Include="Source\Model.h" />
+    <ClInclude Include="Source\ModelLoader.h" />
+    <ClInclude Include="Source\ModelObject.h" />
+    <ClInclude Include="Source\Renderer.h" />
+    <ClInclude Include="Source\ResourceManager.h" />
+    <ClInclude Include="Source\Shader.h" />
+    <ClInclude Include="Source\Skeleton.h" />
+    <ClInclude Include="Source\SkinnedModel.h" />
+    <ClInclude Include="Source\SkyboxObject.h" />
+    <ClInclude Include="Source\Texture2D.h" />
+    <ClInclude Include="Source\TextureCubemap.h" />
+    <ClInclude Include="Source\ThirdPersonCamera.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\BRDF.fs" />
+    <None Include="Shaders\BRDF.vs" />
+    <None Include="Shaders\Color.fs" />
+    <None Include="Shaders\Color.vs" />
+    <None Include="Shaders\Cube.fs" />
+    <None Include="Shaders\Cube.vs" />
+    <None Include="Shaders\Cubemap.vs" />
+    <None Include="Shaders\Equirectangular.fs" />
+    <None Include="Shaders\Irradiance.fs" />
+    <None Include="Shaders\Model.fs" />
+    <None Include="Shaders\Model.vs" />
+    <None Include="Shaders\Particles.fs" />
+    <None Include="Shaders\Particles.vs" />
+    <None Include="Shaders\ParticlesTF.fs" />
+    <None Include="Shaders\ParticlesTFRender.vs" />
+    <None Include="Shaders\ParticlesTFUpdate.vs" />
+    <None Include="Shaders\PBR.fs" />
+    <None Include="Shaders\PBR.vs" />
+    <None Include="Shaders\PBR_TEX.fs" />
+    <None Include="Shaders\PBR_TEX.vs" />
+    <None Include="Shaders\Prefilter.fs" />
+    <None Include="Shaders\Skinning.fs" />
+    <None Include="Shaders\Skinning.vs" />
+    <None Include="Shaders\Skybox.fs" />
+    <None Include="Shaders\Skybox.vs" />
+    <None Include="Shaders\Terrain.fs" />
+    <None Include="Shaders\Terrain.vs" />
+    <None Include="Shaders\TerrainDebugLines.fs" />
+    <None Include="Shaders\TerrainDebugLines.vs" />
+    <None Include="Shaders\Test.fs" />
+    <None Include="Shaders\Test.vs" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
